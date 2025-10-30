@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(46, 0, 46);
+  }
+  .container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: auto;
+  }
+  .first{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: #00B1D4;
+  }
+  .day1 {
+    width: 80px;
+    height: 80px;
+    background: #FADE8B;
+    border-radius: 50%;
+    position: relative;
+  }
+  .day1::after{
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 248px;
+    border-radius: 48px;
+    border: 16px solid black;
+  }
+  .day1::before{
+    content: "";
+    position: absolute;
+    width: 348px;
+    height: 48px;
+    border-radius: 48px;
+    border: 16px solid black;
+  }
