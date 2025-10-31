@@ -49,13 +49,14 @@
     width: 400px;
     height: 300px;
     background-color: #37A76F;
+    position: relative;
   }
   .day2 {
     width: 40px;
     height: 300px;
     background-color: black;
     margin: 0 auto;
-    position: relative;
+    
   }
   .day2_1{
     width: 400px;
@@ -73,7 +74,7 @@
     border-radius: 50%;
     border: 40px solid black;
     top: 20px;
-    left: -110px;
+    left: 80px;
   }
   .day2::before{
     content: "";
@@ -83,5 +84,4 @@
     border-radius: 50%;
     border: 40px solid black;
     top: 140px;
-    left: 10px;
   }
