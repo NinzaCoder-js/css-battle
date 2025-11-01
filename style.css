@@ -85,3 +85,41 @@
     border: 40px solid black;
     top: 140px;
   }
+
+  /* day 3 css code start */
+
+  .third{
+    width: 400px;
+    height: 300px;
+    background-color: #243D83;
+    padding: 50px 70px;
+  }
+  .day3_hero {
+    width: 30px;
+    height: 120px;
+    background: #F0CD48;
+    position: relative;
+  }
+  .day3_hero::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F0CD48;
+    bottom: -40px;
+    left: -5px;
+  }
+  .day3_foo{
+    transform: rotate(180deg);
+    margin-top: 40px;
+  }
+  .day3{
+    display: flex;
+    justify-content: space-between;
+  }
+  .day3_bottom{
+    width: 320px;
+    height: 40px;
+    background-color: #F0CD48;
+    margin-left: -30px;
+  }
