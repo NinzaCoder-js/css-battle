@@ -123,3 +123,36 @@
     background-color: #F0CD48;
     margin-left: -30px;
   }
+
+  /* day 4 css code start */
+  .fourth{
+    width: 400px;
+    height: 300px;
+    background-color: hsl(224, 100%, 59%);
+    padding: 50px 70px;
+  }
+  .day4_hero {
+    width: 30px;
+    height: 120px;
+    background: #F0CD48;
+    position: relative;
+  }
+  .day4_hero::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F0CD48;
+    top: 40px;
+    left: -5px;
+  }
+  .day4{
+    display: flex;
+    justify-content: space-between;
+  }
+  .day4_bottom{
+    width: 320px;
+    height: 40px;
+    background-color: #F0CD48;
+    margin-left: -30px;
+  }
