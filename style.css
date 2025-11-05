@@ -156,3 +156,42 @@
     background-color: #F0CD48;
     margin-left: -30px;
   }
+  /* day 5 css code start */
+  .fifth{
+    width: 400px;
+    height: 300px;
+    background-color: #0B2429;
+    padding: 20px
+  }
+  .day5_div {
+    width: 360px;
+    height: 40px;
+    background: #A7C2FA;
+    position: relative;
+  }
+  .day5_div::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 260px;
+    background-color: #A7C2FA;
+    left: 10px;
+  }
+  .day5_div::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 260px;
+    background-color: #A7C2FA;
+    right: 10px;
+  }
+  .day5_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+  }
+  .day5_foo{
+    width: 100px;
+    height: 40px;
+    background-color: #A7C2FA; 
+  } 
